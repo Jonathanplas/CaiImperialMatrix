@@ -1,0 +1,55 @@
+/*background image styling */
+body {
+  background-image: url("../imageAssets/uclimage.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+}
+
+/*search styling*/
+input[type=text] {
+  opacity = 1;
+  display: block;
+  margin : auto auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  width: 400px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 12px 20px 12px 40px;
+}
+
+/*styling for the image*/
+img {
+  display: block;
+  width: 50%;
+  height: 30%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* navigation styling: adapted from in-class example*/
+.myNav {
+  justify-content: center;
+  list-style: none; /*this is needed to keep little bullets from appearing */
+  background: #0C2340;
+  display: flex;
+}
+
+.myNav a {
+  font-family: 'Raleway', sans-serif;  opacity = 1; /* including the google font */
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.myNav a:hover {
+    background: grey;
+}

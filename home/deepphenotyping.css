@@ -1,0 +1,85 @@
+body {
+  /*background-image: url("../imageAssets/uclimage.jpg");*/
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  background-color: white;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+
+}
+
+/*search styling*/
+input[type=text] {
+  font-family: 'Raleway', sans-serif;  opacity = 1;
+  display: block;
+  margin : auto auto;
+  margin-bottom: 100px;
+  margin-top: 100px;
+  width: 400px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  font-size: 16px;
+  background-color: white;
+  background-position: 10px 10px;
+  background-repeat: no-repeat;
+  padding: 10px 10px 12px 20px;
+}
+
+/*styling for the image
+img {
+  display: block;
+  width: 50%;
+  height: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  opacity: 0.3;
+} */
+
+/* navigation styling: adapted from in-class example*/
+.myNav {
+  justify-content: center;
+  list-style: none; /*this is needed to keep little bullets from appearing */
+  background: #0C2340;
+  display: flex;
+}
+
+/* including the google font */
+.myNav a {
+  font-family: 'Raleway', sans-serif;  opacity = 1;
+  text-decoration: none;
+  display: block;
+  padding: 1em;
+  color: white;
+}
+
+.myNav a:hover {
+  font-family: 'Raleway', sans-serif;  opacity = 1;
+  background: grey;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid black;
+  text-align: left;
+  padding: 8px;
+  color: white; font-family: 'Raleway', sans-serif;  opacity = 1;
+}
+
+tr:nth-child(even) {
+  background-color: #0C2340;
+}
+tr:nth-child(odd) {
+  background-color: #C99700;
+}
+
+.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+  background-color: #color;
+}
