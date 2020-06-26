@@ -72,14 +72,3 @@ td, th {
   padding: 8px;
   color: white; font-family: 'Raleway', sans-serif;  opacity = 1;
 }
-
-tr:nth-child(even) {
-  background-color: #0C2340;
-}
-tr:nth-child(odd) {
-  background-color: #C99700;
-}
-
-.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
-  background-color: #color;
-}

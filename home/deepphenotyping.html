@@ -7,9 +7,37 @@
     <link href="deepphenotyping.css" type="text/css" rel="stylesheet">
     <!--this is how we get the google font -->
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap" rel="stylesheet">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script> <!-- w/ permission from Dr. Wicks -->
+
+    <script type="text/javascript">
+
+    function imperialService($http){
+      const self = this;
+      self.url = '';
+      self.createUser = createUser;
+
+      function createPerson(firstName, lastName, category3, category4){
+        return this.$http({
+          method: 'POST',
+          url: ${}/imperialData.json,
+          data: {
+
+            firstName,
+            lastName,
+            category3,
+            category4
+          }
+        })
+      }
+    }
+
+    </script>
+
 </head>
 
 <body>
+
 
   <ul class="myNav">
 
@@ -19,7 +47,6 @@
       <li><a href="../physicians/physicians.html#">东西</a></li>
 
   </ul>
-
 
   <h2>
 
@@ -34,433 +61,16 @@
   </form>
 
 
-  <table>
 
-    <tr>
-    <td>孟卿</td>
-    <td>儒生</td>
-    <td>東海</td>
-    <td>蘭陵</td>
-    <td> </td>
-    <td> </td>
-    </tr>
-    <tr>
-    <td>孟喜</td>
-    <td>儒生</td>
-    <td>東海</td>
-    <td>蘭陵</td>
-    <td> </td>
-    <td>丞相掾</td>
-    </tr>
-    <tr>
-    <td>白光</td>
-    <td>儒生</td>
-    <td>東海</td>
-    <td>蘭陵</td>
-    <td> </td>
-    <td>博士</td>
-    </tr>
-    <tr>
-    <td>后倉</td>
-    <td>儒生</td>
-    <td>東海</td>
-    <td>蘭陵</td>
-    <td> </td>
-    <td>少府</td>
-    </tr>
-    <tr>
-    <td>疏廣</td>
-    <td>儒生</td>
-    <td>東海</td>
-    <td>蘭陵</td>
-    <td> </td>
-    <td>太傅</td>
-    </tr>
-    <tr>
-    <td>疏受</td>
-    <td>儒生</td>
-    <td>東海</td>
-    <td>蘭陵</td>
-    <td> </td>
-    <td>少傅</td>
-    </tr>
-    <tr>
-    <td>蕭望之</td>
-    <td>儒生</td>
-    <td>東海</td>
-    <td>蘭陵</td>
-    <td>杜陵</td>
-    <td>御史大夫</td>
-    </tr>
-    <tr>
-    <td>蕭育</td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td>大鴻臚</td>
-    </tr>
-    <tr>
-    <td>蕭咸</td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td>大司農</td>
-    </tr>
-    <tr>
-    <td>蕭由</td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td>安定太守</td>
-    </tr>
-    <tr>
-    <td>翼奉</td>
-    <td>儒生</td>
-    <td>東海</td>
-    <td>下阫</td>
-    <td> </td>
-    <td>博士</td>
-    </tr>
-    <tr>
-    <td>嚴延年</td>
-    <td>儒生</td>
-    <td>東海</td>
-    <td>下阫</td>
-    <td> </td>
-    <td>太守</td>
-    </tr>
-    <tr>
-    <td>嚴彭祖</td>
-    <td>儒生</td>
-    <td>東海</td>
-    <td>下阫</td>
-    <td> </td>
-    <td>左馮翊</td>
-    </tr>
-    <tr>
-    <td>匡衡</td>
-    <td>儒生</td>
-    <td>東海</td>
-    <td>承人</td>
-    <td> </td>
-    <td>丞相</td>
-    </tr>
-    <tr>
-    <td>匡咸</td>
-    <td>儒生</td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td>左馮翊</td>
-    </tr>
-    <tr>
-    <td>師丹</td>
-    <td>儒生</td>
-    <td>琅邪</td>
-    <td>東武</td>
-    <td> </td>
-    <td>大司空</td>
-    </tr>
-    <tr>
-    <td>于定國</td>
-    <td> </td>
-    <td>東海</td>
-    <td>郯</td>
-    <td> </td>
-    <td>御史大夫</td>
-    </tr>
-    <tr>
-    <td>于永</td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    </tr>
-    <tr>
-    <td>張敞</td>
-    <td> </td>
-    <td>河東</td>
-    <td>平陽</td>
-    <td>杜陵</td>
-    <td>京兆尹</td>
-    </tr>
-    <tr>
-    <td>張武</td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td>杜陵</td>
-    <td> </td>
-    </tr>
-    <tr>
-    <td>張竦</td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td>杜陵</td>
-    <td> </td>
-    </tr>
-    <tr>
-    <td>周堪</td>
-    <td>儒生</td>
-    <td>齊人</td>
-    <td> </td>
-    <td> </td>
-    <td>光祿勳</td>
-    </tr>
-    <tr>
-    <td>牟卿</td>
-    <td>儒生</td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td>博士</td>
-    </tr>
-    <tr>
-    <td>許商</td>
-    <td>儒生</td>
-    <td>長安</td>
-    <td> </td>
-    <td> </td>
-    <td>光祿勳</td>
-    </tr>
-    <tr>
-    <td>通漢</td>
-    <td>儒生</td>
-    <td>沛</td>
-    <td>聞人</td>
-    <td> </td>
-    <td>中山中尉</td>
-    </tr>
-    <tr>
-    <td>慶普</td>
-    <td>儒生</td>
-    <td>沛</td>
-    <td> </td>
-    <td> </td>
-    <td>東平太傅</td>
-    </tr>
-    <tr>
-    <td>翟牧</td>
-    <td>儒生</td>
-    <td>沛</td>
-    <td> </td>
-    <td> </td>
-    <td>博士</td>
-    </tr>
-    <tr>
-    <td>戴德</td>
-    <td>儒生</td>
-    <td>梁</td>
-    <td> </td>
-    <td> </td>
-    <td>信都太傅</td>
-    </tr>
-    <tr>
-    <td>戴聖</td>
-    <td>儒生</td>
-    <td>梁</td>
-    <td> </td>
-    <td> </td>
-    <td>九江太守</td>
-    </tr>
-    <tr>
-    <td>眭弘？</td>
-    <td>儒生</td>
-    <td>魯國</td>
-    <td>蕃人</td>
-    <td> </td>
-    <td>符節令</td>
-    </tr>
-    <tr>
-    <td>王吉</td>
-    <td>儒生</td>
-    <td>琅玡</td>
-    <td>皋虞</td>
-    <td>少時學問，居長安</td>
-    <td>博士</td>
-    </tr>
-    <tr>
-    <td>王駿</td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td>御史大夫</td>
-    </tr>
-    <tr>
-    <td>王崇</td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td>大司空</td>
-    </tr>
-    <tr>
-    <td>貢禹</td>
-    <td>儒生</td>
-    <td>琅邪</td>
-    <td> </td>
-    <td> </td>
-    <td>御史大夫</td>
-    </tr>
-    <tr>
-    <td>石顯</td>
-    <td> </td>
-    <td>濟南</td>
-    <td> </td>
-    <td> </td>
-    <td>中書令</td>
-    </tr>
-    <tr>
-    <td>夏侯始昌</td>
-    <td>儒生</td>
-    <td>魯人</td>
-    <td> </td>
-    <td> </td>
-    <td>昌邑王太傅</td>
-    </tr>
-    <tr>
-    <td>夏侯勝</td>
-    <td>儒生</td>
-    <td>東平人</td>
-    <td> </td>
-    <td> </td>
-    <td>太子太傅</td>
-    </tr>
-    <tr>
-    <td>孔霸  </td>
-    <td>儒生</td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td>高密相</td>
-    </tr>
-    <tr>
-    <td>孔光</td>
-    <td>儒生</td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td>丞相</td>
-    </tr>
-    <tr>
-    <td>夏侯建</td>
-    <td>儒生</td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td>太子少傅</td>
-    </tr>
-    <tr>
-    <td>丙吉</td>
-    <td> </td>
-    <td>魯國</td>
-    <td> </td>
-    <td> </td>
-    <td>丞相</td>
-    </tr>
-    <tr>
-    <td>丙顯</td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td>太僕</td>
-    </tr>
-    <tr>
-    <td>魏相</td>
-    <td>儒生</td>
-    <td>濟陰</td>
-    <td>定陶</td>
-    <td>平陵</td>
-    <td>御史大夫</td>
-    </tr>
-    <tr>
-    <td>韓延壽</td>
-    <td> </td>
-    <td>燕人</td>
-    <td> </td>
-    <td>杜陵</td>
-    <td>左馮翊</td>
-    </tr>
-    <tr>
-    <td>史高</td>
-    <td>外戚</td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td>大司馬</td>
-    </tr>
-    <tr>
-    <td>薛廣德</td>
-    <td>儒生</td>
-    <td>沛郡</td>
-    <td>相</td>
-    <td> </td>
-    <td>御史大夫</td>
-    </tr>
-    <tr>
-    <td>王式</td>
-    <td>儒生</td>
-    <td>東平</td>
-    <td>新桃</td>
-    <td> </td>
-    <td>昌邑王師</td>
-    </tr>
-    <tr>
-    <td>田王孫</td>
-    <td>儒生</td>
-    <td>碭</td>
-    <td> </td>
-    <td> </td>
-    <td>博士</td>
-    </tr>
-    <tr>
-    <td>梁丘賀</td>
-    <td>儒生</td>
-    <td>琅邪</td>
-    <td> </td>
-    <td> </td>
-    <td>少府</td>
-    </tr>
-    <tr>
-    <td>梁丘臨</td>
-    <td>儒生</td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td>少府</td>
-    </tr>
-    <tr>
-    <td>施讎</td>
-    <td>儒生</td>
-    <td>沛</td>
-    <td> </td>
-    <td> </td>
-    <td>博士</td>
-    </tr>
-    <tr>
-    <td>馬宮</td>
-    <td>儒生</td>
-    <td>東海</td>
-    <td>戚</td>
-    <td> </td>
-    <td>大司徒</td>
-    </tr>
-    <tr>
-    <td>王仲翁</td>
-    <td>儒生</td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    <td> </td>
-    </tr>
-  </table>
+</body>
 
+<body ng-app="appServices">
+  <div ng-controller="angularController">
+    <script>
+      angular.module('app').service('imperialService', imperialService);
+      imperialService.$inject = ['$http'];
+    </script>
+  </div>
+</body>
 
-</body></html>
+</html>
