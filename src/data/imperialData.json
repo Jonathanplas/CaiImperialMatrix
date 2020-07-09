@@ -1,0 +1,426 @@
+[
+  {
+    "name": "孟卿",
+    "position": "儒生",
+    "region1": "東海",
+    "region2": "蘭陵",
+    "region3": "",
+    "highest_pos": ""
+  },
+  {
+    "name": "孟喜",
+    "position": "儒生",
+    "region1": "東海",
+    "region2": "蘭陵",
+    "region3": "",
+    "highest_pos": "丞相掾"
+  },
+  {
+    "name": "白光",
+    "position": "儒生",
+    "region1": "東海",
+    "region2": "蘭陵",
+    "region3": "",
+    "highest_pos": "博士"
+  },
+  {
+    "name": "后倉",
+    "position": "儒生",
+    "region1": "東海",
+    "region2": "蘭陵",
+    "region3": "",
+    "highest_pos": "少府"
+  },
+  {
+    "name": "疏廣",
+    "position": "儒生",
+    "region1": "東海",
+    "region2": "蘭陵",
+    "region3": "",
+    "highest_pos": "太傅"
+  },
+  {
+    "name": "疏受",
+    "position": "儒生",
+    "region1": "東海",
+    "region2": "蘭陵",
+    "region3": "",
+    "highest_pos": "少傅"
+  },
+  {
+    "name": "蕭望之",
+    "position": "儒生",
+    "region1": "東海",
+    "region2": "蘭陵",
+    "region3": "杜陵",
+    "highest_pos": "御史大夫"
+  },
+  {
+    "name": "蕭育",
+    "position": "",
+    "region1": "",
+    "region2": "",
+    "region3": "",
+    "highest_pos": "大鴻臚"
+  },
+  {
+    "name": "蕭咸",
+    "position": "",
+    "region1": "",
+    "region2": "",
+    "region3": "",
+    "highest_pos": "大司農"
+  },
+  {
+    "name": "蕭由",
+    "position": "",
+    "region1": "",
+    "region2": "",
+    "region3": "",
+    "highest_pos": "安定太守"
+  },
+  {
+    "name": "翼奉",
+    "position": "儒生",
+    "region1": "東海",
+    "region2": "下阫",
+    "region3": "",
+    "highest_pos": "博士"
+  },
+  {
+    "name": "嚴延年",
+    "position": "儒生",
+    "region1": "東海",
+    "region2": "下阫",
+    "region3": "",
+    "highest_pos": "太守"
+  },
+  {
+    "name": "嚴彭祖",
+    "position": "儒生",
+    "region1": "東海",
+    "region2": "下阫",
+    "region3": "",
+    "highest_pos": "左馮翊"
+  },
+  {
+    "name": "匡衡",
+    "position": "儒生",
+    "region1": "東海",
+    "region2": "承人",
+    "region3": "",
+    "highest_pos": "丞相"
+  },
+  {
+    "name": "匡咸",
+    "position": "儒生",
+    "region1": "",
+    "region2": "",
+    "region3": "",
+    "highest_pos": "左馮翊"
+  },
+  {
+    "name": "師丹",
+    "position": "儒生",
+    "region1": "琅邪",
+    "region2": "東武",
+    "region3": "",
+    "highest_pos": "大司空"
+  },
+  {
+    "name": "于定國",
+    "position": "",
+    "region1": "東海",
+    "region2": "郯",
+    "region3": "",
+    "highest_pos": "御史大夫"
+  },
+  {
+    "name": "于永",
+    "position": "",
+    "region1": "",
+    "region2": "",
+    "region3": "",
+    "highest_pos": ""
+  },
+  {
+    "name": "張敞",
+    "position": "",
+    "region1": "河東",
+    "region2": "平陽",
+    "region3": "杜陵",
+    "highest_pos": "京兆尹"
+  },
+  {
+    "name": "張武",
+    "position": "",
+    "region1": "",
+    "region2": "",
+    "region3": "杜陵",
+    "highest_pos": ""
+  },
+  {
+    "name": "張竦",
+    "position": "",
+    "region1": "",
+    "region2": "",
+    "region3": "杜陵",
+    "highest_pos": ""
+  },
+  {
+    "name": "周堪",
+    "position": "儒生",
+    "region1": "齊人",
+    "region2": "",
+    "region3": "",
+    "highest_pos": "光祿勳"
+  },
+  {
+    "name": "牟卿",
+    "position": "儒生",
+    "region1": "",
+    "region2": "",
+    "region3": "",
+    "highest_pos": "博士"
+  },
+  {
+    "name": "許商",
+    "position": "儒生",
+    "region1": "長安",
+    "region2": "",
+    "region3": "",
+    "highest_pos": "光祿勳"
+  },
+  {
+    "name": "通漢",
+    "position": "儒生",
+    "region1": "沛",
+    "region2": "聞人",
+    "region3": "",
+    "highest_pos": "中山中尉"
+  },
+  {
+    "name": "慶普",
+    "position": "儒生",
+    "region1": "沛",
+    "region2": "",
+    "region3": "",
+    "highest_pos": "東平太傅"
+  },
+  {
+    "name": "翟牧",
+    "position": "儒生",
+    "region1": "沛",
+    "region2": "",
+    "region3": "",
+    "highest_pos": "博士"
+  },
+  {
+    "name": "戴德",
+    "position": "儒生",
+    "region1": "梁",
+    "region2": "",
+    "region3": "",
+    "highest_pos": "信都太傅"
+  },
+  {
+    "name": "戴聖",
+    "position": "儒生",
+    "region1": "梁",
+    "region2": "",
+    "region3": "",
+    "highest_pos": "九江太守"
+  },
+  {
+    "name": "眭弘？",
+    "position": "儒生",
+    "region1": "魯國",
+    "region2": "蕃人",
+    "region3": "",
+    "highest_pos": "符節令"
+  },
+  {
+    "name": "王吉",
+    "position": "儒生",
+    "region1": "琅玡",
+    "region2": "皋虞",
+    "region3": "少時學問，居長安",
+    "highest_pos": "博士"
+  },
+  {
+    "name": "王駿",
+    "position": "",
+    "region1": "",
+    "region2": "",
+    "region3": "",
+    "highest_pos": "御史大夫"
+  },
+  {
+    "name": "王崇",
+    "position": "",
+    "region1": "",
+    "region2": "",
+    "region3": "",
+    "highest_pos": "大司空"
+  },
+  {
+    "name": "貢禹",
+    "position": "儒生",
+    "region1": "琅邪",
+    "region2": "",
+    "region3": "",
+    "highest_pos": "御史大夫"
+  },
+  {
+    "name": "石顯",
+    "position": "",
+    "region1": "濟南",
+    "region2": "",
+    "region3": "",
+    "highest_pos": "中書令"
+  },
+  {
+    "name": "夏侯始昌",
+    "position": "儒生",
+    "region1": "魯人",
+    "region2": "",
+    "region3": "",
+    "highest_pos": "昌邑王太傅"
+  },
+  {
+    "name": "夏侯勝",
+    "position": "儒生",
+    "region1": "東平人",
+    "region2": "",
+    "region3": "",
+    "highest_pos": "太子太傅"
+  },
+  {
+    "name": "孔霸",
+    "position": "儒生",
+    "region1": "",
+    "region2": "",
+    "region3": "",
+    "highest_pos": "高密相"
+  },
+  {
+    "name": "孔光",
+    "position": "儒生",
+    "region1": "",
+    "region2": "",
+    "region3": "",
+    "highest_pos": "丞相"
+  },
+  {
+    "name": "夏侯建",
+    "position": "儒生",
+    "region1": "",
+    "region2": "",
+    "region3": "",
+    "highest_pos": "太子少傅"
+  },
+  {
+    "name": "丙吉",
+    "position": "",
+    "region1": "魯國",
+    "region2": "",
+    "region3": "",
+    "highest_pos": "丞相"
+  },
+  {
+    "name": "丙顯",
+    "position": "",
+    "region1": "",
+    "region2": "",
+    "region3": "",
+    "highest_pos": "太僕"
+  },
+  {
+    "name": "魏相",
+    "position": "儒生",
+    "region1": "濟陰",
+    "region2": "定陶",
+    "region3": "平陵",
+    "highest_pos": "御史大夫"
+  },
+  {
+    "name": "韓延壽",
+    "position": "",
+    "region1": "燕人",
+    "region2": "",
+    "region3": "杜陵",
+    "highest_pos": "左馮翊"
+  },
+  {
+    "name": "史高",
+    "position": "外戚",
+    "region1": "",
+    "region2": "",
+    "region3": "",
+    "highest_pos": "大司馬"
+  },
+  {
+    "name": "薛廣德",
+    "position": "儒生",
+    "region1": "沛郡",
+    "region2": "相",
+    "region3": "",
+    "highest_pos": "御史大夫"
+  },
+  {
+    "name": "王式",
+    "position": "儒生",
+    "region1": "東平",
+    "region2": "新桃",
+    "region3": "",
+    "highest_pos": "昌邑王師"
+  },
+  {
+    "name": "田王孫",
+    "position": "儒生",
+    "region1": "碭",
+    "region2": "",
+    "region3": "",
+    "highest_pos": "博士"
+  },
+  {
+    "name": "梁丘賀",
+    "position": "儒生",
+    "region1": "琅邪",
+    "region2": "",
+    "region3": "",
+    "highest_pos": "少府"
+  },
+  {
+    "name": "梁丘臨",
+    "position": "儒生",
+    "region1": "",
+    "region2": "",
+    "region3": "",
+    "highest_pos": "少府"
+  },
+  {
+    "name": "施讎",
+    "position": "儒生",
+    "region1": "沛",
+    "region2": "",
+    "region3": "",
+    "highest_pos": "博士"
+  },
+  {
+    "name": "馬宮",
+    "position": "儒生",
+    "region1": "東海",
+    "region2": "戚",
+    "region3": "",
+    "highest_pos": "大司徒"
+  },
+  {
+    "name": "王仲翁",
+    "position": "儒生",
+    "region1": "",
+    "region2": "",
+    "region3": "",
+    "highest_pos": ""
+  }
+]
