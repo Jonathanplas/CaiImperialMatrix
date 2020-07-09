@@ -1,10 +1,11 @@
-var therapies = {
+// Register routed and stateful physicians component
+var physicians = {
     templateUrl: './physicians.html'
 };
 
 angular
     .module('physicians')
-    .component('physicians', therapies)
+    .component('physicians', physicians)
     .config(function ($stateProvider) {
         $stateProvider
             .state('physicians', {

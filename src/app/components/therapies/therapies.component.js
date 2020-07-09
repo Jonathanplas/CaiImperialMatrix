@@ -1,3 +1,5 @@
+// Register routed and stateful therapies component
+
 var therapies = {
     templateUrl: './therapies.html'
 };

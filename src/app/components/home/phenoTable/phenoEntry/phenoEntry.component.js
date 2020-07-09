@@ -1,4 +1,4 @@
-// Decleration of stateless phenoEntry component
+// Declaration of stateless phenoEntry component
 
 var phenoEntry = {
     templateUrl: './phenoEntry.html',
@@ -9,6 +9,7 @@ var phenoEntry = {
     }
     };
     
+    // Register the component to the phenoTable parent module
     angular
     .module('phenoTable')
     .component('phenoEntry', phenoEntry);

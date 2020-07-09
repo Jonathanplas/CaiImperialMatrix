@@ -1,3 +1,5 @@
+// Phenotype model definition, used for entries in the phenotable
+
 class PhenotypeModel {    
     constructor(Parse) {        
         this.Parse = Parse;        
@@ -12,7 +14,8 @@ class PhenotypeModel {
             'region2',
             'region3'        
         ];    
-    }    
+    } 
+    // New method   
     New(obj) {        
         if (angular.isUndefined(obj)) {            
             const parseObject = new this.Parse.Object(this.name)            
@@ -22,7 +25,8 @@ class PhenotypeModel {
             this.Parse.defineAttributes(obj, this.fields);            
             return obj;        
         }    
-    }    
+    }   
+    // Retrieve by ID 
     getById(id) {        
         return new this.Parse.Query(this.New())            
         .get(id)            
@@ -33,6 +37,7 @@ class PhenotypeModel {
         })            
         .catch(error => Promise.reject(error));    
     }    
+    // Retrieve all phenotypes
     getAllPhenotypes() {        
         return new this.Parse.Query(this.New())                               
         .find(results => {                
@@ -41,12 +46,14 @@ class PhenotypeModel {
                  
                 );                
             this.data = results;   
-                         
+
             return Promise.resolve(results);            
             })            
             .catch(error => Promise.reject(error));    
         }
-    }
+}
+
+// Register the model
 angular    
 .module('components')    
 .service('PhenotypeModel', PhenotypeModel);
