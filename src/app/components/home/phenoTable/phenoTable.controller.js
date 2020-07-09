@@ -5,6 +5,7 @@ function PhenotypeController($state) {
        console.log(ctrl.types);
     }
 
+    // Remove locally to clean up the view
     ctrl.removePhenotype = function(pheno) {
         var ind = ctrl.types.indexOf(pheno); // Get index of item
         ctrl.types.splice(ind, 1); // Remove from list

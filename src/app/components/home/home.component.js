@@ -1,3 +1,5 @@
+// Component for the main homepage
+
 var home = {
     templateUrl: './home.html'
 };
@@ -8,7 +10,7 @@ angular
     .config(function ($stateProvider, $urlRouterProvider) {
         $stateProvider
             .state('home', { 
-                redirectTo:'home.phenoTable',
+                redirectTo:'home.phenoTable', // Should redirect to the phenoTable view first
                 url: '/home',
                 component: 'home',
                 parent: 'app',

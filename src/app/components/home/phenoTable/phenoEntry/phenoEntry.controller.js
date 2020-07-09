@@ -6,6 +6,7 @@ function PhenoEntryController() {
   }
 }
 
+// register controller to parent module
 angular
   .module('phenoTable')
   .controller('PhenoEntryController', PhenoEntryController);

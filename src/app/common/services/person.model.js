@@ -1,3 +1,10 @@
+// NOTE: This model isn't implemented within the release yet due to time constraints
+//      As seen in our current release, we have a table which contains data on many different
+//      persons and their phenotypes. We plan on being able to click a person which would
+//      then display a person view, populated with both the person and its relevant phenotype data
+
+//      The model is set up but we could not implement the view due to time constraints
+
 class PersonModel {    
     constructor(Parse) {        
         this.Parse = Parse;        
@@ -30,7 +37,7 @@ class PersonModel {
         })            
         .catch(error => Promise.reject(error));    
     }    
-    getAllPhenotypes() {        
+    getAllPersons() {        
         return new this.Parse.Query(this.New())                               
         .find(results => {                
             results.forEach(result =>          

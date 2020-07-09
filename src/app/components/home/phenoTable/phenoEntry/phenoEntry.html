@@ -1,6 +1,7 @@
 <table>
    <tr>
+       <!-- Iterate over and populate table with the attributes from the item-->
         <td ng-repeat="stuff in $ctrl.pheno.attributes">{{stuff}}</td>
-        <td><button ng-click="$ctrl.remove()">Remove</button></td>
+        <td><button ng-click="$ctrl.remove()">Remove from View</button></td>
     </tr>
 </table>

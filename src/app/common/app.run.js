@@ -1,5 +1,5 @@
 function init($rootScope, $uiRouter){
-
+  // UI router instantiation
   var Visualizer = window['ui-router-visualizer'].Visualizer;
   var pluginInstance = $uiRouter.plugin(Visualizer);
 
@@ -18,7 +18,7 @@ function init($rootScope, $uiRouter){
     }
   }
 }
-
+// Run the function
 angular
   .module('common')
   .run(init)
