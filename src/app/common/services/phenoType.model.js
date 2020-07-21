@@ -5,7 +5,7 @@ class PhenotypeModel {
         this.Parse = Parse;        
         this.data = {};        
         this.collection = [];        
-        this.name = 'Phenotypes';        
+        this.name = 'Phenotype';        
         this.fields = [                       
             'position',            
             'name',            

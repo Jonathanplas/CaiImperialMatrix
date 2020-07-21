@@ -4,5 +4,6 @@ angular
         'home',
         'therapies',
         'physicians',
-        'phenoTable'
+        'phenoTable',
+        'auth'
     ]);

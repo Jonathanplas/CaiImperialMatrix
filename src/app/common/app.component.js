@@ -12,6 +12,10 @@ angular
   $stateProvider
     .state('app', {
       url: '/',
+      data: {
+        requiredAuth: true // Additional line to make authentication required
+      },
       component: 'app'
+
     })
 });
