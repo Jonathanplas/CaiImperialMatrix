@@ -1,14 +1,11 @@
-## Changlog: V0.3
+## Changlog: V0.4.0
 
 # Contributers
-Aaron Reardon and Jonathan Plas
+Jonathan Plas
 
 # Bug Fixes
-- None
+- None to speak of.
 
 # New Features
-- Creation of a new auth module based off of Todd Motto's authentication
-- Refactored firebase logic in example module to interface with parse databases
-- Added login and registration components
-- Added route protection to all routes in the main app component tree, requiring users to login
-- Adjusted Title of index.html to appropriately reflect websites content
+- Added a bank of possible files for download in the data directory
+- Added a dropdown menu to allow users to download dumps of some of the data we display

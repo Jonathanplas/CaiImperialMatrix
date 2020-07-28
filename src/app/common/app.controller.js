@@ -1,5 +1,5 @@
 // App contoller, for use in the future
-function AppController(AuthService, $state) {
+function AppController(AuthService, $state, $scope, $mdSidenav, $timeout) {
   var ctrl = this;
   ctrl.user = AuthService.getUser();
   ctrl.logout = function () {

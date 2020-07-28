@@ -1,9 +1,10 @@
 function PhenoEntryController() {
   var ctrl = this;
-  //Remove function which sends the item up to the table component
-  ctrl.remove = function() {
-      ctrl.onRemove({pheno: ctrl.pheno});
+
+  ctrl.toggle = function() {
+      ctrl.toggleSide({pheno: ctrl.pheno});
   }
+
 }
 
 // register controller to parent module

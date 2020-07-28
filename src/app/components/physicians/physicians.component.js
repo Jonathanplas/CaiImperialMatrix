@@ -1,6 +1,7 @@
 // Register routed and stateful physicians component
 var physicians = {
-    templateUrl: './physicians.html'
+    templateUrl: './physicians.html',
+    controller: 'PhysiciansController'
 };
 
 angular
@@ -13,5 +14,5 @@ angular
                 component: 'physicians',
                 parent: 'app'
             })
- 
+
     });

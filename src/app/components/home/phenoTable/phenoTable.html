@@ -1,4 +1,30 @@
+
+<md-sidenav class="md-sidenav-right md-whiteframe-6dp" style="position: fixed; width: 100%" md-component-id="right">
+
+    <md-toolbar class="md-theme-dark">
+      <h1 class="md-toolbar-tools">Bureaucrat Info</h1>
+    </md-toolbar>
+    <md-content ng-controller="RightCtrl" layout-padding="">
+        <img style="max-width: 200px;" src={{$ctrl.image}}> <!--Image source replaced by link from database-->
+      <p>Name: {{$ctrl.sideBarContent.name}} </p>
+      <p>Position: {{$ctrl.sideBarContent.position}}</p>
+      <p>Highest Position: {{$ctrl.sideBarContent.highest_pos}}</p>
+      <p>Region 1: {{$ctrl.sideBarContent.region1}}</p>
+      <p>Region 2: {{$ctrl.sideBarContent.region2}}</p>
+      <p>Region 3: {{$ctrl.sideBarContent.region3}}</p>
+      <br>
+    </md-content>
+
+  </md-sidenav>
+<table>
+    <td><h4>Position</h4></td>
+    <td><h4>Name</h4></td>
+    <td><h4>Highest Position</h4></td>
+    <td><h4>Region 1</h4></td>
+    <td><h4>Region 2</h4></td>
+    <td><h4>Region 3</h4></td>
+</table>
 <table>
     <!-- Create as many entries as items in the array of data -->
-    <pheno-entry ng-repeat="pheno in $ctrl.types" pheno="pheno" on-remove="$ctrl.removePhenotype(pheno)"></pheno-entry>
+    <pheno-entry ng-repeat="pheno in $ctrl.types" pheno="pheno" on-remove="$ctrl.removePhenotype(pheno)" toggle-side="$ctrl.toggleRight(pheno)"></pheno-entry>
 </table>

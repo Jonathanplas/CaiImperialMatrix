@@ -1,4 +1,6 @@
 angular
 .module('phenoTable', [
-  'ui.router'
+  'ui.router',
+  'ngMaterial',
+  'ngMessages'
 ]);
