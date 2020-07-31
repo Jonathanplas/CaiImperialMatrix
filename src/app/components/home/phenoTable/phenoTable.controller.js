@@ -1,9 +1,9 @@
 function PhenotypeController($state, $mdSidenav, PersonModel) {
     var ctrl = this;
     ctrl.sideBarContent = null;
-    ctrl.image = "https://hatrabbits.com/wp-content/uploads/2018/10/risky-assumptions.jpg"; // Place holder image, replaced by link from database
+    ctrl.image = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a8/Hesburgh_Joyce_Statue.jpg/800px-Hesburgh_Joyce_Statue.jpg"; // Place holder image, replaced by link from database
     ctrl.person = null
-    // NOTE: types is gotten via a resolve binding found in the component file
+    // NOTE: types gotten via a resolve binding found in the component file
     ctrl.$onInit = function() {
        console.log(ctrl.types);
     }

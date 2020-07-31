@@ -19,7 +19,7 @@ input[type=text] {
   margin-top: 100px;
   width: 400px;
   box-sizing: border-box;
-  border: 2px solid #ccc;
+  border: 2px solid white;
   border-radius: 4px;
   font-size: 16px;
   background-color: white;
@@ -67,19 +67,39 @@ table {
 }
 
 td, th {
-  border: 1px solid black;
   text-align: left;
   padding: 8px;
-  color: white; font-family: 'Raleway', sans-serif;  opacity : 1;
+  color: #0C2340; font-family: 'Raleway', sans-serif;  opacity : 1;
+  width:10%;
+  height: 10%;
+  float:left;
+  word-wrap:break-word;
+  background-color: white;
 }
 
-tr:nth-child(even) {
-  background-color: #0C2340;
-}
+/* tr:nth-child(even) {
+  background-color: black;
+  color: black;
+  opacity: 0.75;
+  width:100%;
+  float:left;
+  word-wrap:break-word;
+} */
 tr:nth-child(odd) {
-  background-color: #C99700;
+  opacity: 1;
+  width:100%;
+  height: 10%;
+  float:left;
+  word-wrap:break-word;
 }
 
 .table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
-  background-color: red
+  background-color: red;
+  width:20%;
+  float:left;
+  word-wrap:break-word;
+}
+
+hr.new1 { /*style for the lines */
+  border-top: 1px solid black;
 }

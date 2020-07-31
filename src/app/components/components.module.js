@@ -5,5 +5,6 @@ angular
         'therapies',
         'physicians',
         'phenoTable',
+        'relationships',
         'auth'
     ]);
