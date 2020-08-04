@@ -18,6 +18,7 @@ function init($rootScope, $uiRouter){
     }
   }
 }
+
 // Run the function
 angular
   .module('common')

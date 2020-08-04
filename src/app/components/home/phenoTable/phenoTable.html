@@ -6,23 +6,25 @@
     <md-content ng-controller="RightCtrl" layout-padding="">
       <img style="max-width: 200px;" src={{$ctrl.image}}> <!--Image source replaced by link from database-->
       <p>Name: {{$ctrl.sideBarContent.name}} </p>
-      <p>Position: {{$ctrl.sideBarContent.position}}</p>
-      <p>Highest Position: {{$ctrl.sideBarContent.highest_pos}}</p>
-      <p>Region 1: {{$ctrl.sideBarContent.region1}}</p>
-      <p>Region 2: {{$ctrl.sideBarContent.region2}}</p>
-      <p>Region 3: {{$ctrl.sideBarContent.region3}}</p>
+      <p>Identity: {{$ctrl.sideBarContent.position}}</p> <!--change this later to match-->
+      <p>Original Region 1: {{$ctrl.sideBarContent.highest_pos}}</p>
+      <p>Original Region 1 -Commandery 籍貫（郡）: {{$ctrl.sideBarContent.region1}}</p>
+      <p>Original Region 2- County - 籍貫 (縣): {{$ctrl.sideBarContent.region2}}</p>
+      <p>Highest Position: {{$ctrl.sideBarContent.region3}}</p>
       <p><a ui-sref="relationships">Relationships</a></p>
+      <p><a ui-sref="relationships">Criminal History</a></p>
+      <p><a ui-sref="relationships">Career Patterns</a></p>
       <br>
     </md-content>
 
   </md-sidenav>
 <table>
     <td><h4>Name</h4></td>
-    <td><h4>Position</h4></td>
+    <td><h4>Identity</h4></td>
+    <td><h4>Original Region 1</h4></td>
+    <td><h4>Original Region 1 -Commandery 籍貫（郡）</h4></td>
+    <td><h4>Original Region 2- County - 籍貫 (縣)</h4></td>
     <td><h4>Highest Position</h4></td>
-    <td><h4>Region 1</h4></td>
-    <td><h4>Region 2</h4></td>
-    <td><h4>Region 3</h4></td>
     <td><h4>Data Added</h4></td>
     <td><h4>Data Updated</h4></td>
 </table>

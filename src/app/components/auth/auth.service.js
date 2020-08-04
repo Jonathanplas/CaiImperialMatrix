@@ -1,6 +1,6 @@
  // Service used to manage authentication
  function AuthService(Parse) {
-   
+
     var auth = new Parse.User(); // Used as placeholder to set fields for log in and registering
     var authData = null;        // Variable used to store user data once logged in
 
@@ -39,14 +39,14 @@
     this.requireAuthentication = function() {
        var user = this.getUser();
         return Promise.resolve(user).then(onSignIn) // Return promise resolved in onSignIn, caught and redirected in auth module
-            
-       
+
+
     }
 
     this.isAuthenticated = function() {
         return !!authData;
     }
-    // Register a new user and store user daya
+    // Register a new user and store user data
     this.register = function(user) {
         console.log('Registration attempt...');
         auth.set("username", user.email);
