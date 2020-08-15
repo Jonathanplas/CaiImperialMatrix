@@ -1,6 +1,6 @@
 # Professor Cai's ImperialMatrix Website
 
-<h2> How to install & run this feature </h2> 
+<h2> How to install & run this </h2> 
 
 You will need to install npm, which you can do by running the command ​sudo npm i​ in the top directory of this project.
 To run this feature, run ​gulp​ from within the feature's file structure. Copy and paste the address provided to you into your browser.
