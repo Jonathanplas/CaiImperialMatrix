@@ -1,4 +1,3 @@
-// This model is now implemented!
 
 class PersonModel {
     constructor(Parse) {
@@ -22,12 +21,11 @@ class PersonModel {
             return obj;
         }
     }
-    // Only method currently used, finds the person based on the phenotype object id
     getById(phenoId) {
         return new this.Parse.Query(this.New())
         .include('phenoId')
         .equalTo('phenoId', phenoId)
-        .find()        
+        .find()
         .then(results => {
             results.forEach(result => {
                 this.Parse.defineAttributes(result, this.fields);

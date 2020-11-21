@@ -1,3 +1,24 @@
+<!DOCTYPE html>
+<html>
+<style>
+.button {
+  background-color: #C99700;
+  border: 20px;
+  border-color: #0C2340;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 15px 10px;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.button1 {background-color: #4CAF50;} /* Green */
+</style>
+<body>
 <form name="authForm" novalidate ng-submit="$ctrl.submitForm();">
   <label>
     <input
@@ -16,7 +37,8 @@
       ng-model="$ctrl.user.password">
   </label>
   <div class="auth-button">
-    <button type="submit" ng-disabled="authForm.$invalid">
+
+    <button class="button button1" type="submit" ng-disabled="authForm.$invalid">
       {{ $ctrl.button }}
     </button>
   </div>
@@ -24,3 +46,5 @@
     {{ $ctrl.message }}
   </div>
 </form>
+</body>
+</html>

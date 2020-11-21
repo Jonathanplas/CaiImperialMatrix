@@ -1,14 +1,64 @@
-<div class="auth">
-  <h1>Login</h1>
-  <auth-form
-    user="$ctrl.user"
-    message="{{ $ctrl.error }}"
-    button="Login"
-    on-submit="$ctrl.loginUser($event);">
-  </auth-form>
-</div>
-<div class="auth__info">
-  <a ui-sref="register">
-    Don't have an account? Create one here.
-  </a>
+<h2>
+  Welcome to the ImperialMatrix database 
+  <br> <br>
+  Please log in or sign up to continue
+</h2>
+
+<style>
+  .center {
+    padding: 80px;
+  }
+</style>
+
+<div class="center">
+
+  <div class="auth">
+
+    <auth-form
+      user="$ctrl.user"
+      message="{{ $ctrl.error }}"
+      button="Login"
+      on-submit="$ctrl.loginUser($event);">
+    </auth-form>
+  </div>
+  <div class="auth__info">
+
+    <style>
+    .button {
+      border-radius: 6px;
+      border: 2px solid #0C2340; /* Green */
+      background-color: #C99700;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 15px 10px;
+      cursor: pointer;
+    }
+    .button:hover {
+      border-radius: 6px;
+      border: 2px solid #0C2340; /* Green */
+      background-color: #00843D;
+      color: white;
+      padding: 15px 32px;
+      text-align: center;
+      text-decoration: none;
+      display: inline-block;
+      font-size: 16px;
+      margin: 15px 10px;
+      cursor: pointer;
+    }
+    </style>
+
+    <a ui-sref="register">
+
+      <input type="button" class="button" value="Don't have an account? Create one here.">
+
+    </a>
+  </div>
+
+  <iframe width="560" height="315" src="https://www.youtube.com/embed/3HE2P4mzpQw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 </div>
