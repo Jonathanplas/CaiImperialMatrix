@@ -45,6 +45,8 @@ img {
   list-style: none; /*this is needed to keep little bullets from appearing */
   background: #0C2340;
   display: flex;
+  margin-right: 20px;
+  margin-left: 20px;
 }
 
 /* including the google font */
