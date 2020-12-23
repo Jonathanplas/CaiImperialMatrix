@@ -4,1031 +4,1141 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/3HE2P4mzpQw" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
   <div ng-init="friends = [
-   {
-     'name': '',
-     'phone': '',
-     'third': ''
-   },
-   {
-     'name': '孟卿',
-     'phone': '疏廣',
-     'third': '師徒'
-   },
-   {
-     'name': '孟卿',
-     'phone': '孟喜',
-     'third': '師徒'
-   },
-   {
-     'name': '孟卿',
-     'phone': '后倉',
-     'third': '師徒'
-   },
-   {
-     'name': '蕭奮',
-     'phone': '孟卿',
-     'third': '師徒'
-   },
-   {
-     'name': '孟喜',
-     'phone': '白光',
-     'third': '師徒'
-   },
-   {
-     'name': '孟喜',
-     'phone': '翟牧',
-     'third': '師徒'
-   },
-   {
-     'name': '后倉',
-     'phone': '戴德',
-     'third': '師徒'
-   },
-   {
-     'name': '后倉',
-     'phone': '戴聖',
-     'third': '師徒'
-   },
-   {
-     'name': '后倉',
-     'phone': '萧望之',
-     'third': '師徒'
-   },
-   {
-     'name': '后倉',
-     'phone': '通漢',
-     'third': '師徒'
-   },
-   {
-     'name': '后倉',
-     'phone': '慶普',
-     'third': '師徒'
-   },
-   {
-     'name': '后倉',
-     'phone': '匡衡',
-     'third': '師徒'
-   },
-   {
-     'name': '后倉',
-     'phone': '翼奉',
-     'third': '師徒'
-   },
-   {
-     'name': '夏侯始昌',
-     'phone': '后倉',
-     'third': '師徒'
-   },
-   {
-     'name': '夏侯始昌',
-     'phone': '夏侯勝',
-     'third': '師徒'
-   },
-   {
-     'name': '蕑卿',
-     'phone': '夏侯勝',
-     'third': '師徒'
-   },
-   {
-     'name': '夏侯勝',
-     'phone': '萧望之',
-     'third': '師徒'
-   },
-   {
-     'name': '夏侯勝',
-     'phone': '夏侯建',
-     'third': '師徒'
-   },
-   {
-     'name': '夏侯勝',
-     'phone': '孔霸  ',
-     'third': '師徒'
-   },
-   {
-     'name': '夏侯勝',
-     'phone': '周堪',
-     'third': '師徒'
-   },
-   {
-     'name': '夏侯勝',
-     'phone': '黃霸',
-     'third': '師徒'
-   },
-   {
-     'name': '田王孫',
-     'phone': '孟喜',
-     'third': '師徒'
-   },
-   {
-     'name': '田王孫',
-     'phone': '梁丘賀',
-     'third': '師徒'
-   },
-   {
-     'name': '田王孫',
-     'phone': '施讎',
-     'third': '師徒'
-   },
-   {
-     'name': '施讎',
-     'phone': '梁丘臨',
-     'third': '師徒'
-   },
-   {
-     'name': '施讎',
-     'phone': '張禹',
-     'third': '師徒'
-   },
-   {
-     'name': '施讎',
-     'phone': '魯伯',
-     'third': '師徒'
-   },
-   {
-     'name': '梁丘賀',
-     'phone': '梁丘臨',
-     'third': '師徒'
-   },
-   {
-     'name': '梁丘賀',
-     'phone': '五鹿充宗',
-     'third': '師徒'
-   },
-   {
-     'name': '梁丘賀',
-     'phone': '王駿',
-     'third': '師徒'
-   },
-   {
-     'name': '梁丘賀',
-     'phone': '張禹',
-     'third': '師徒'
-   },
-   {
-     'name': '京房',
-     'phone': '梁丘賀',
-     'third': '師徒'
-   },
-   {
-     'name': '王吉 ',
-     'phone': '張禹',
-     'third': '師徒'
-   },
-   {
-     'name': '王吉 ',
-     'phone': '王駿',
-     'third': '師徒'
-   },
-   {
-     'name': '匡衡',
-     'phone': '師丹',
-     'third': '師徒'
-   },
-   {
-     'name': '匡衡',
-     'phone': '匡咸',
-     'third': '師徒'
-   },
-   {
-     'name': '匡衡',
-     'phone': '伏理',
-     'third': '師徒'
-   },
-   {
-     'name': '匡衡',
-     'phone': '滿 昌',
-     'third': '師徒'
-   },
-   {
-     'name': '白奇',
-     'phone': '萧望之',
-     'third': '師徒'
-   },
-   {
-     'name': '歐陽高',
-     'phone': '夏侯建',
-     'third': '師徒'
-   },
-   {
-     'name': '周堪',
-     'phone': '牟卿',
-     'third': '師徒'
-   },
-   {
-     'name': '周堪',
-     'phone': '許商',
-     'third': '師徒'
-   },
-   {
-     'name': '張禹',
-     'phone': '彭宣',
-     'third': '師徒'
-   },
-   {
-     'name': '張禹',
-     'phone': '崇子平',
-     'third': '師徒'
-   },
-   {
-     'name': '梁丘臨',
-     'phone': '王駿',
-     'third': '師徒'
-   },
-   {
-     'name': '張禹',
-     'phone': '彭宣',
-     'third': '師徒'
-   },
-   {
-     'name': '張禹',
-     'phone': '戴崇',
-     'third': '師徒'
-   },
-   {
-     'name': '疏廣',
-     'phone': '筦路',
-     'third': '師徒'
-   },
-   {
-     'name': '筦路',
-     'phone': '孫寶',
-     'third': '師徒'
-   },
-   {
-     'name': '王式',
-     'phone': '薛廣德',
-     'third': '師徒'
-   },
-   {
-     'name': '嬴公',
-     'phone': '貢禹',
-     'third': '師徒'
-   },
-   {
-     'name': '嬴公',
-     'phone': '孟卿',
-     'third': '師徒'
-   },
-   {
-     'name': '嬴公',
-     'phone': '眭孟',
-     'third': '師徒'
-   },
-   {
-     'name': '眭孟',
-     'phone': '嚴彭祖',
-     'third': '師徒'
-   },
-   {
-     'name': '眭孟',
-     'phone': '顏安樂',
-     'third': '師徒'
-   },
-   {
-     'name': '韋賢',
-     'phone': '韋玄成',
-     'third': '師徒'
-   },
-   {
-     'name': '韋賢',
-     'phone': '韋賞',
-     'third': '師徒'
-   },
-   {
-     'name': '嚴彭祖',
-     'phone': '王中',
-     'third': '師徒'
-   },
-   {
-     'name': '薛廣德  ',
-     'phone': '龔勝 ',
-     'third': '師徒'
-   },
-   {
-     'name': '牟卿',
-     'phone': '孔光',
-     'third': '師徒'
-   },
-   {
-     'name': '孟卿',
-     'phone': '孟喜',
-     'third': '父子'
-   },
-   {
-     'name': '夏侯勝',
-     'phone': '夏侯建',
-     'third': '堂兄？'
-   },
-   {
-     'name': '梁丘賀',
-     'phone': '梁丘臨',
-     'third': '父子'
-   },
-   {
-     'name': '王吉 ',
-     'phone': '王駿',
-     'third': '父子'
-   },
-   {
-     'name': '匡衡',
-     'phone': '匡咸',
-     'third': '父子'
-   },
-   {
-     'name': '五鹿充宗',
-     'phone': '石顯',
-     'third': '友人'
-   },
-   {
-     'name': '張敞',
-     'phone': '嚴延年',
-     'third': '友人'
-   },
-   {
-     'name': '張敞',
-     'phone': '蕭望之',
-     'third': '友人'
-   },
-   {
-     'name': '張敞',
-     'phone': '于定國',
-     'third': '友人'
-   },
-   {
-     'name': '蕭育',
-     'phone': '陳咸、',
-     'third': '友人'
-   },
-   {
-     'name': '蕭育',
-     'phone': '朱博',
-     'third': '友人'
-   },
-   {
-     'name': '匡衡',
-     'phone': '翼奉',
-     'third': '友人'
-   },
-   {
-     'name': '楊惲',
-     'phone': '韋玄成、',
-     'third': '友人'
-   },
-   {
-     'name': '楊惲',
-     'phone': '張敞',
-     'third': '友人'
-   },
-   {
-     'name': '楊惲',
-     'phone': '孫會宗',
-     'third': '友人'
-   },
-   {
-     'name': '王吉',
-     'phone': '貢禹',
-     'third': '友人'
-   },
-   {
-     'name': '魏相',
-     'phone': '丙吉',
-     'third': '友人'
-   },
-   {
-     'name': '蕭望之',
-     'phone': '周堪',
-     'third': '同盟'
-   },
-   {
-     'name': '蕭望之',
-     'phone': '劉向',
-     'third': '同盟'
-   },
-   {
-     'name': '蕭望之',
-     'phone': '金敞',
-     'third': '同盟'
-   },
-   {
-     'name': '周堪',
-     'phone': '劉向',
-     'third': '同盟'
-   },
-   {
-     'name': '周堪',
-     'phone': '金敞',
-     'third': '同盟'
-   },
-   {
-     'name': '劉向',
-     'phone': '金敞',
-     'third': '同盟'
-   },
-   {
-     'name': '翟方進',
-     'phone': '師丹',
-     'third': '同盟'
-   },
-   {
-     'name': '匡衡',
-     'phone': '貢禹',
-     'third': '同盟'
-   },
-   {
-     'name': '杜延年',
-     'phone': '張敞',
-     'third': '支持'
-   },
-   {
-     'name': '于定國',
-     'phone': '于永',
-     'third': '父子'
-   },
-   {
-     'name': '于永',
-     'phone': '館陶公主施',
-     'third': '夫妻'
-   },
-   {
-     'name': '館陶公主施宣帝',
-     'phone': '',
-     'third': '父女'
-   },
-   {
-     'name': '蕭望之',
-     'phone': '蕭育',
-     'third': '父子'
-   },
-   {
-     'name': '蕭望之',
-     'phone': '蕭咸',
-     'third': '父子'
-   },
-   {
-     'name': '蕭望之',
-     'phone': '蕭由',
-     'third': '父子'
-   },
-   {
-     'name': '匡衡',
-     'phone': '匡咸',
-     'third': '父子'
-   },
-   {
-     'name': '王吉',
-     'phone': '王駿',
-     'third': '父子'
-   },
-   {
-     'name': '梁丘賀',
-     'phone': '梁丘臨',
-     'third': '父子'
-   },
-   {
-     'name': '丙吉',
-     'phone': '丙顯',
-     'third': '父子'
-   },
-   {
-     'name': '嚴彭祖',
-     'phone': '嚴延年',
-     'third': '兄弟'
-   },
-   {
-     'name': '張敞',
-     'phone': '張武',
-     'third': '兄弟'
-   },
-   {
-     'name': '張敞',
-     'phone': '張竦',
-     'third': '祖孫'
-   },
-   {
-     'name': '嚴延年',
-     'phone': '梁丘賀',
-     'third': '敵人'
-   },
-   {
-     'name': '蕭望之',
-     'phone': '張敞',
-     'third': '批判'
-   },
-   {
-     'name': '蕭望之',
-     'phone': '馮奉世',
-     'third': '批判'
-   },
-   {
-     'name': '蕭望之',
-     'phone': '韓延壽',
-     'third': '敵人'
-   },
-   {
-     'name': '蕭望之',
-     'phone': '弘恭',
-     'third': '敵人'
-   },
-   {
-     'name': '蕭望之',
-     'phone': '石顯',
-     'third': '敵人'
-   },
-   {
-     'name': '王駿',
-     'phone': '匡衡',
-     'third': '劾奏'
-   },
-   {
-     'name': '韋玄成',
-     'phone': '劉更生',
-     'third': '彈劾'
-   },
-   {
-     'name': '貢禹',
-     'phone': '劉更生',
-     'third': '彈劾'
-   },
-   {
-     'name': '史高',
-     'phone': '蕭望之',
-     'third': '有隙'
-   },
-   {
-     'name': '匡衡',
-     'phone': '石顯',
-     'third': '彈劾'
-   },
-   {
-     'name': '甄譚',
-     'phone': '石顯',
-     'third': '彈劾'
-   },
-   {
-     'name': '王尊',
-     'phone': '匡衡',
-     'third': '劾奏'
-   },
-   {
-     'name': '司隸校尉駿',
-     'phone': '匡衡',
-     'third': '劾奏'
-   },
-   {
-     'name': '少府忠',
-     'phone': '匡衡',
-     'third': '劾奏'
-   },
-   {
-     'name': '魏相',
-     'phone': '萧望之',
-     'third': '推薦'
-   },
-   {
-     'name': '丙吉',
-     'phone': '萧望之',
-     'third': '推薦'
-   },
-   {
-     'name': '丙吉',
-     'phone': '王仲翁',
-     'third': '推薦'
-   },
-   {
-     'name': '丙吉',
-     'phone': '陳萬年',
-     'third': '推薦'
-   },
-   {
-     'name': '丙吉',
-     'phone': '于定國',
-     'third': '推薦'
-   },
-   {
-     'name': '丙吉',
-     'phone': '杜延年',
-     'third': '推薦'
-   },
-   {
-     'name': '萧望之',
-     'phone': '劉更生',
-     'third': '推薦'
-   },
-   {
-     'name': '萧望之',
-     'phone': '匡衡',
-     'third': '推薦'
-   },
-   {
-     'name': '萧望之',
-     'phone': '張禹',
-     'third': '推薦'
-   },
-   {
-     'name': '楊興',
-     'phone': '匡衡',
-     'third': '推薦'
-   },
-   {
-     'name': '史高',
-     'phone': '匡衡',
-     'third': '推薦'
-   },
-   {
-     'name': '陳咸',
-     'phone': '王駿',
-     'third': '推薦'
-   },
-   {
-     'name': '匡衡',
-     'phone': '王駿',
-     'third': '推薦'
-   },
-   {
-     'name': '',
-     'phone': '',
-     'third': ''
-   },
-   {
-     'name': '萧望之',
-     'phone': '薛廣德',
-     'third': '推薦'
-   },
-   {
-     'name': '萧望之',
-     'phone': '匡衡',
-     'third': '推薦'
-   },
-   {
-     'name': '石顯',
-     'phone': '貢禹',
-     'third': '推薦'
-   },
-   {
-     'name': '魏相',
-     'phone': '韓延壽',
-     'third': '推薦'
-   },
-   {
-     'name': '于永',
-     'phone': '馮逡',
-     'third': '推薦'
-   },
-   {
-     'name': '陳咸',
-     'phone': '蕭育',
-     'third': '推薦'
-   },
-   {
-     'name': '陳咸',
-     'phone': '朱博',
-     'third': '推薦'
-   },
-   {
-     'name': '王鳳',
-     'phone': '朱博',
-     'third': '推舉'
-   },
-   {
-     'name': '師丹',
-     'phone': '馬宮',
-     'third': '推舉'
-   },
-   {
-     'name': '翟方進',
-     'phone': '師丹',
-     'third': '推舉'
-   },
-   {
-     'name': '孔光',
-     'phone': '師丹',
-     'third': '推舉'
-   },
-   {
-     'name': '',
-     'phone': '',
-     'third': ''
-   },
-   {
-     'name': '蕭望之',
-     'phone': '匡衡',
-     'third': '同師'
-   },
-   {
-     'name': '魏相',
-     'phone': '萧望之',
-     'third': '推薦'
-   },
-   {
-     'name': '丙吉',
-     'phone': '萧望之',
-     'third': '推薦'
-   },
-   {
-     'name': '丙吉',
-     'phone': '王仲翁',
-     'third': '推薦'
-   },
-   {
-     'name': '丙吉',
-     'phone': '陳萬年',
-     'third': '推薦'
-   },
-   {
-     'name': '丙吉',
-     'phone': '于定國',
-     'third': '推薦'
-   },
-   {
-     'name': '丙吉',
-     'phone': '杜延年',
-     'third': '推薦'
-   },
-   {
-     'name': '萧望之',
-     'phone': '劉更生',
-     'third': '推薦'
-   },
-   {
-     'name': '萧望之',
-     'phone': '匡衡',
-     'third': '推薦'
-   },
-   {
-     'name': '萧望之',
-     'phone': '張禹',
-     'third': '推薦'
-   },
-   {
-     'name': '楊興',
-     'phone': '匡衡',
-     'third': '推薦'
-   },
-   {
-     'name': '史高',
-     'phone': '匡衡',
-     'third': '推薦'
-   },
-   {
-     'name': '陳咸',
-     'phone': '王駿',
-     'third': '推薦'
-   },
-   {
-     'name': '匡衡',
-     'phone': '王駿',
-     'third': '推薦'
-   },
-   {
-     'name': '',
-     'phone': '',
-     'third': ''
-   },
-   {
-     'name': '萧望之',
-     'phone': '薛廣德',
-     'third': '推薦'
-   },
-   {
-     'name': '萧望之',
-     'phone': '匡衡',
-     'third': '推薦'
-   },
-   {
-     'name': '石顯',
-     'phone': '貢禹',
-     'third': '推薦'
-   },
-   {
-     'name': '魏相',
-     'phone': '韓延壽',
-     'third': '推薦'
-   },
-   {
-     'name': '于永',
-     'phone': '馮逡',
-     'third': '推薦'
-   },
-   {
-     'name': '陳咸',
-     'phone': '蕭育',
-     'third': '推薦'
-   },
-   {
-     'name': '陳咸',
-     'phone': '朱博',
-     'third': '推薦'
-   },
-   {
-     'name': '王鳳',
-     'phone': '朱博',
-     'third': '推舉'
-   },
-   {
-     'name': '師丹',
-     'phone': '馬宮',
-     'third': '推舉'
-   },
-   {
-     'name': '翟方進',
-     'phone': '師丹',
-     'third': '推舉'
-   },
-   {
-     'name': '孔光',
-     'phone': '師丹',
-     'third': '推舉'
-   },
-   {
-     'name': '',
-     'phone': '',
-     'third': ''
-   },
-   {
-     'name': '蕭望之',
-     'phone': '匡衡',
-     'third': '同師'
-   },
-   {
-     'name': '魏相',
-     'phone': '萧望之',
-     'third': '推薦'
-   },
-   {
-     'name': '丙吉',
-     'phone': '萧望之',
-     'third': '推薦'
-   },
-   {
-     'name': '丙吉',
-     'phone': '王仲翁',
-     'third': '推薦'
-   },
-   {
-     'name': '丙吉',
-     'phone': '陳萬年',
-     'third': '推薦'
-   },
-   {
-     'name': '丙吉',
-     'phone': '于定國',
-     'third': '推薦'
-   },
-   {
-     'name': '丙吉',
-     'phone': '杜延年',
-     'third': '推薦'
-   },
-   {
-     'name': '萧望之',
-     'phone': '劉更生',
-     'third': '推薦'
-   },
-   {
-     'name': '萧望之',
-     'phone': '匡衡',
-     'third': '推薦'
-   },
-   {
-     'name': '萧望之',
-     'phone': '張禹',
-     'third': '推薦'
-   },
-   {
-     'name': '楊興',
-     'phone': '匡衡',
-     'third': '推薦'
-   },
-   {
-     'name': '史高',
-     'phone': '匡衡',
-     'third': '推薦'
-   },
-   {
-     'name': '陳咸',
-     'phone': '王駿',
-     'third': '推薦'
-   },
-   {
-     'name': '匡衡',
-     'phone': '王駿',
-     'third': '推薦'
-   },
-   {
-     'name': '',
-     'phone': '',
-     'third': ''
-   },
-   {
-     'name': '萧望之',
-     'phone': '薛廣德',
-     'third': '推薦'
-   },
-   {
-     'name': '萧望之',
-     'phone': '匡衡',
-     'third': '推薦'
-   },
-   {
-     'name': '石顯',
-     'phone': '貢禹',
-     'third': '推薦'
-   },
-   {
-     'name': '魏相',
-     'phone': '韓延壽',
-     'third': '推薦'
-   },
-   {
-     'name': '于永',
-     'phone': '馮逡',
-     'third': '推薦'
-   },
-   {
-     'name': '陳咸',
-     'phone': '蕭育',
-     'third': '推薦'
-   },
-   {
-     'name': '陳咸',
-     'phone': '朱博',
-     'third': '推薦'
-   },
-   {
-     'name': '王鳳',
-     'phone': '朱博',
-     'third': '推舉'
-   },
-   {
-     'name': '師丹',
-     'phone': '馬宮',
-     'third': '推舉'
-   },
-   {
-     'name': '翟方進',
-     'phone': '師丹',
-     'third': '推舉'
-   },
-   {
-     'name': '孔光',
-     'phone': '師丹',
-     'third': '推舉'
-   },
-   {
-     'name': '蕭望之',
-     'phone': '匡衡',
-     'third': '同師'
-   },
-   {
-     'name': '魏相',
-     'phone': '萧望之',
-     'third': '辟屬'
-   },
-   {
-     'name': '史高',
-     'phone': '匡衡',
-     'third': '辟屬'
-   },
-   {
-     'name': '萧望之',
-     'phone': '薛廣德',
-     'third': '辟屬'
-   },
-   {
-     'name': '許延壽',
-     'phone': '嚴延年',
-     'third': '辟屬'
-   },
-   {
-     'name': '于永',
-     'phone': '王嘉',
-     'third': '辟屬'
-   },
-   {
-     'name': '蕭望之',
-     'phone': '薛廣德',
-     'third': '辟屬'
-   },
-   {
-     'name': '王鳳',
-     'phone': '蕭育',
-     'third': '辟屬'
-   },
-   {
-     'name': '王鳳',
-     'phone': '陳咸',
-     'third': '辟屬'
-   },
-   {
-     'name': '王鳳',
-     'phone': '朱博',
-     'third': '辟屬'
-   },
-   {
-     'name': '丞相西曹衛將軍掾',
-     'phone': '蕭由',
-     'third': '辟屬'
-   }
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Gongsun Hong 公孫弘',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Ji An 汲黯',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Gongsun Hong 公孫弘',
+      'phone': 'Ji An 汲黯',
+      'third': 'Enemies'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Zhang Tang 張湯',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Zhang Tang 張湯',
+      'phone': 'Ji An 汲黯',
+      'third': 'Enemies'
+    },
+    {
+      'name': 'Zhang Tang 張湯',
+      'phone': 'Gongsun Hong 公孫弘',
+      'third': 'Friends'
+    },
+    {
+      'name': 'Zhang Ou 張歐',
+      'phone': 'Gongsun Hong 公孫弘',
+      'third': 'Predecessor-Successor'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Zhang Ou 張歐',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Zhu Maichen 朱買臣',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Zhu Maichen 朱買臣',
+      'phone': 'Gongsun Hong 公孫弘',
+      'third': 'Enemies'
+    },
+    {
+      'name': 'Zhufu Yan 主父偃',
+      'phone': 'Gongsun Hong 公孫弘',
+      'third': 'Enemies'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Zhufu Yan 主父偃',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Dong Zhongshu 董仲舒',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Dong Zhongshu 董仲舒',
+      'phone': 'Gongsun Hong 公孫弘',
+      'third': 'Enemies'
+    },
+    {
+      'name': 'Gongsun Hong 公孫弘',
+      'phone': 'Gongsun Du 公孫度',
+      'third': 'Father-Son'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Gongsun Du 公孫度',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'King of Huainan 淮南王劉安',
+      'third': 'Emperor-King'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'King of Hengshan 衡山王',
+      'third': 'Emperor-King'
+    },
+    {
+      'name': 'King of Hengshan 衡山王',
+      'phone': 'King of Huainan 淮南王劉安',
+      'third': 'Co-conspirators'
+    },
+    {
+      'name': 'Li Cai 李蔡',
+      'phone': 'Gongsun Hong 公孫弘',
+      'third': 'Predecessor-Successor'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Li Cai 李蔡',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Bu Shi 卜式',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Bu Shi 卜式',
+      'phone': 'Gongsun Hong 公孫弘',
+      'third': 'Enemies'
+    },
+    {
+      'name': 'Wuqiu Shouwang 吾丘壽王',
+      'phone': 'Gongsun Hong 公孫弘',
+      'third': 'Enemies'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Wuqiu Shouwang 吾丘壽王',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Shen Qing 審卿',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Shen Qing 審卿',
+      'phone': 'Gongsun Hong 公孫弘',
+      'third': 'Friends'
+    },
+    {
+      'name': 'Ning Cheng 甯成',
+      'phone': 'Gongsun Hong 公孫弘',
+      'third': 'Enemies'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Ning Cheng 甯成',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Yuan Gu 轅固',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Yuan Gu 轅固',
+      'phone': 'Gongsun Hong 公孫弘',
+      'third': 'Confucian Fellows'
+    },
+    {
+      'name': 'Wei Qing 衛青',
+      'phone': 'Zhufu Yan 主父偃',
+      'third': 'Patron-Guest'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Wei Qing 衛青',
+      'third': 'Emperor-General'
+    },
+    {
+      'name': 'Xu Yue 徐樂',
+      'phone': 'Zhufu Yan 主父偃',
+      'third': 'Colleagues'
+    },
+    {
+      'name': 'Yan An 莊安',
+      'phone': 'Zhufu Yan 主父偃',
+      'third': 'Colleagues'
+    },
+    {
+      'name': 'Yan An 莊安',
+      'phone': 'Xu Yue 徐樂',
+      'third': 'Colleagues'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Zhuang An 莊安',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Xu Yue 徐樂',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Zhufu Yan 主父偃',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Wei Zifu 衛子夫',
+      'third': 'Husband-Wife'
+    },
+    {
+      'name': 'Wei Zifu 衛子夫',
+      'phone': 'Zhufu Yan 主父偃',
+      'third': 'Friends'
+    },
+    {
+      'name': 'Liu Dingguo 劉定國 /King of Yan 燕王定國',
+      'phone': 'Zhufu Yan 主父偃',
+      'third': 'King-Bureaucrat'
+    },
+    {
+      'name': 'Liu Zijing 劉次昌/King of Qi 齊王次昌',
+      'phone': 'Zhufu Yan 主父偃',
+      'third': 'King-Prime Minister'
+    },
+    {
+      'name': 'Liu Pengzu 劉彭祖/King of Zhao 趙王彭祖',
+      'phone': 'Zhufu Yan 主父偃',
+      'third': 'King-Bureaucrat'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Liu Pengzu 劉彭祖/King of Zhao 趙王彭祖',
+      'third': 'Emperor-King'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Liu Zijing 劉次昌/King of Qi 齊王次昌',
+      'third': 'Emperor-King'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Liu Dingguo 劉定國 /King of Yan 燕王定國',
+      'third': 'Emperor-King'
+    },
+    {
+      'name': 'Liu Dingguo 劉定國 /King of Yan 燕王定國',
+      'phone': 'Liu Zijing 劉次昌/King of Qi 齊王次昌',
+      'third': 'Imperial relatives'
+    },
+    {
+      'name': 'Liu Dingguo 劉定國 /King of Yan 燕王定國',
+      'phone': 'Liu Pengzu 劉彭祖/King of Zhao 趙王彭祖',
+      'third': 'Imperial relatives'
+    },
+    {
+      'name': 'Liu Pengzu 劉彭祖/King of Zhao 趙王彭祖',
+      'phone': 'Liu Zijing 劉次昌/King of Qi 齊王次昌',
+      'third': 'Imperial relatives'
+    },
+    {
+      'name': 'Zhu Maichen 朱買臣',
+      'phone': 'Zhufu Yan 主父偃',
+      'third': 'Colleagues'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Zhu Maichen 朱買臣',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Zhu Maichen 朱買臣',
+      'phone': 'Gongsun Hong 公孫弘',
+      'third': 'Colleagues'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Gongsun Hong 公孫弘',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Zhufu Yan 主父偃',
+      'phone': 'Gongsun Hong 公孫弘',
+      'third': 'Enemies'
+    },
+    {
+      'name': 'Kong Che 孔車',
+      'phone': 'Zhufu Yan 主父偃',
+      'third': 'Friends'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Kong Che 孔車',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Dong Zhongshu 董仲舒',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Dong Zhongshu 董仲舒',
+      'phone': 'Zhufu Yan 主父偃',
+      'third': 'Enemies'
+    },
+    {
+      'name': 'Liu Pengzu 劉彭祖/King of Zhao 趙王彭祖',
+      'phone': 'Emperor Wu 武帝',
+      'third': 'Half-Brothers'
+    },
+    {
+      'name': 'Emperor Jing 景帝',
+      'phone': 'Liu Pengzu 劉彭祖/King of Zhao 趙王彭祖',
+      'third': 'Father-son'
+    },
+    {
+      'name': 'Emperor Jing 景帝',
+      'phone': 'Liu De 劉德/河閒獻王德',
+      'third': 'Father-son'
+    },
+    {
+      'name': 'Liu De 劉德/河閒獻王德',
+      'phone': 'Emperor Wu 武帝',
+      'third': 'Half-Brothers'
+    },
+    {
+      'name': 'Emperor Jing  景帝',
+      'phone': 'Sima Xiangru 司馬相如',
+      'third': 'Emperor-Gentleman-attendant'
+    },
+    {
+      'name': 'Emperor Jing  景帝',
+      'phone': 'King Xiao of Liang 梁孝王',
+      'third': 'Brothers'
+    },
+    {
+      'name': 'King Xiao of Liang 梁孝王',
+      'phone': 'Sima Xiangru 司馬相如',
+      'third': 'King-Rhetorician'
+    },
+    {
+      'name': 'Zou Yang 鄒陽',
+      'phone': 'Sima Xiangru 司馬相如',
+      'third': 'Friends'
+    },
+    {
+      'name': 'Mei Sheng 枚乘',
+      'phone': 'Sima Xiangru 司馬相如',
+      'third': 'Friends'
+    },
+    {
+      'name': 'Zhuang Chi 莊忌',
+      'phone': 'Sima Xiangru 司馬相如',
+      'third': 'Friends'
+    },
+    {
+      'name': 'King Xiao of Liang 梁孝王',
+      'phone': 'Zou Yang 鄒陽',
+      'third': 'King-Rhetorician'
+    },
+    {
+      'name': 'King Xiao of Liang 梁孝王',
+      'phone': 'Mei Sheng 枚乘',
+      'third': 'King-Rhetorician'
+    },
+    {
+      'name': 'King Xiao of Liang 梁孝王',
+      'phone': 'Zhuang Chi 莊忌',
+      'third': 'King-Rhetorician'
+    },
+    {
+      'name': 'Zou Yang 鄒陽',
+      'phone': 'Mei Sheng 枚乘',
+      'third': 'Friends'
+    },
+    {
+      'name': 'Zou Yang 鄒陽',
+      'phone': 'Zhuang Chi 莊忌',
+      'third': 'Friends'
+    },
+    {
+      'name': 'Mei Sheng 枚乘',
+      'phone': 'Zhuang Chi 莊忌',
+      'third': 'Friends'
+    },
+    {
+      'name': 'Wang Chi 王吉',
+      'phone': 'Sima Xiangru 司馬相如',
+      'third': 'Friends'
+    },
+    {
+      'name': 'Cho Wangsun 卓王孫',
+      'phone': 'Sima Xiangru 司馬相如',
+      'third': 'Father-Son-in-law'
+    },
+    {
+      'name': 'Cho Wangsun 卓王孫',
+      'phone': 'Cheng Cheng 程鄭',
+      'third': 'Friends'
+    },
+    {
+      'name': 'Wang Chi 王吉',
+      'phone': 'Cheng Cheng 程鄭',
+      'third': 'Friends'
+    },
+    {
+      'name': 'Wang Chi 王吉',
+      'phone': 'Cho Wangsun 卓王孫',
+      'third': 'Friends'
+    },
+    {
+      'name': 'Sima Xiangru 司馬相如',
+      'phone': 'Wen-chün 文君',
+      'third': 'Husband-Wife'
+    },
+    {
+      'name': 'Cho Wangsun 卓王孫',
+      'phone': 'Wen-chün 文君',
+      'third': 'Father-Daughter'
+    },
+    {
+      'name': 'Yang Te-yi 楊得意',
+      'phone': 'Sima Xiangru 司馬相如',
+      'third': 'Fellow townsman'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Yang Deyi楊得意',
+      'third': 'Emperor-Master of the Hounds'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Sima Xiangru 司馬相如',
+      'third': 'Emperor-Gentleman-attendant'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Wang Ranyü 王然于',
+      'third': 'Emperor-Envoy'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Tang Meng 唐蒙',
+      'third': 'Emperor-Envoy'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Hu Chongguo 壺充國',
+      'third': 'Emperor-Envoy'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Suo Zhong 所忠',
+      'third': 'Emperor-Gentleman-attendant'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Lü Yüehren 呂越人',
+      'third': 'Emperor-Envoy'
+    },
+    {
+      'name': 'T’ang Meng 唐蒙',
+      'phone': 'Sima Xiangru 司馬相如',
+      'third': 'Colleagues'
+    },
+    {
+      'name': 'Sima Xiangru 司馬相如',
+      'phone': 'Wang Ranyü 王然于',
+      'third': 'Superior-subordinate'
+    },
+    {
+      'name': 'Sima Xiangru 司馬相如',
+      'phone': 'Hu Chongguo 壺充國',
+      'third': 'Superior-subordinate'
+    },
+    {
+      'name': 'Sima Xiangru 司馬相如',
+      'phone': 'Lü Yüeren 呂越人',
+      'third': 'Superior-subordinate'
+    },
+    {
+      'name': 'Sima Xiangru 司馬相如',
+      'phone': 'Hu Chongguo 壺充國',
+      'third': 'Superior-subordinate'
+    },
+    {
+      'name': 'Sima Xiangru 司馬相如',
+      'phone': 'Lü Yüehren 呂越人',
+      'third': 'Superior-subordinate'
+    },
+    {
+      'name': 'Sima Xiangru 司馬相如',
+      'phone': 'Suo Zhong 所忠',
+      'third': 'Colleagues'
+    },
+    {
+      'name': 'Emperor Jing 景帝',
+      'phone': 'Emperor Wu 武帝',
+      'third': 'Father-Son'
+    },
+    {
+      'name': 'Emperor Jing  景帝',
+      'phone': 'Ji An 汲黯',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Ji An 汲黯',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Ji An 汲黯',
+      'phone': 'Guan Fu 灌夫',
+      'third': 'Friends'
+    },
+    {
+      'name': 'Ji An 汲黯',
+      'phone': 'Zheng Dangshi 鄭當時',
+      'third': 'Friends'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Guan Fu 灌夫',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Zheng Dangshi 鄭當時',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Guan Fu 灌夫',
+      'phone': 'Zheng Dangshi 鄭當時',
+      'third': 'Friends'
+    },
+    {
+      'name': 'Liu Qi 劉弃',
+      'phone': 'Guan Fu 灌夫',
+      'third': 'Friends'
+    },
+    {
+      'name': 'Liu Qi 劉弃',
+      'phone': 'Zheng Dangshi 鄭當時',
+      'third': 'Friends'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Liu Qi 劉弃',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Ji An 汲黯',
+      'phone': 'Liu Qi 劉弃',
+      'third': 'Friends'
+    },
+    {
+      'name': 'Tian Fen 田蚡',
+      'phone': 'Ji An 汲黯',
+      'third': 'Superior-Suboordinate'
+    },
+    {
+      'name': 'Emperor Jing  景帝',
+      'phone': 'Empress Dowager Wang 孝景王皇后',
+      'third': 'Husband-Wife'
+    },
+    {
+      'name': 'Tian Fen 田蚡',
+      'phone': 'Emperor Jing  景帝',
+      'third': 'Brothers-in-law'
+    },
+    {
+      'name': 'Empress Dowager Wang 孝景王皇后',
+      'phone': 'Emperor Wu 武帝',
+      'third': 'Mother-Son'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Tian Fen 田蚡',
+      'third': 'Uncle-Nephew'
+    },
+    {
+      'name': 'Tian Fen 田蚡',
+      'phone': 'Empress Dowager Wang 孝景王皇后',
+      'third': 'Brother-Sister'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Zhuang Zhu 莊助',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Ji An 汲黯',
+      'phone': 'Zhuang Zhu 莊助',
+      'third': 'Friends'
+    },
+    {
+      'name': 'Wei Qing 衛靑',
+      'phone': 'Ji An 汲黯',
+      'third': 'Superior-Suboordinate/Friends'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Wei Qing 衛靑',
+      'third': 'Emperor-General'
+    },
+    {
+      'name': 'Ji An 汲黯',
+      'phone': 'Gongsun Hong 公孫弘',
+      'third': 'Enemies'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Gongsun Hong 公孫弘',
+      'third': 'Emperor-Chancellor'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Zhang Tang 張湯',
+      'third': 'Emperor-Commandant of Justice'
+    },
+    {
+      'name': 'Zhang Tang 張湯',
+      'phone': 'Gongsun Hong 公孫弘',
+      'third': 'Friends'
+    },
+    {
+      'name': 'Ji An 汲黯',
+      'phone': 'Zhang Tang 張湯',
+      'third': 'Enemies'
+    },
+    {
+      'name': 'Ji An 汲黯',
+      'phone': 'Li Xi 李息',
+      'third': 'Colleagues'
+    },
+    {
+      'name': 'Li Xi 李息',
+      'phone': 'Zhang Tang 張湯',
+      'third': 'Colleagues'
+    },
+    {
+      'name': 'Ji An 汲黯',
+      'phone': 'Ji Yan 汲偃',
+      'third': 'Father-Son'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Ji Yan 汲偃',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Ji Ren 汲仁',
+      'phone': 'Ji Yan 汲偃',
+      'third': 'Uncle-Nephew'
+    },
+    {
+      'name': 'Ji An 汲黯',
+      'phone': 'Ji Ren 汲仁',
+      'third': 'Brothers'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Ji Ren 汲仁',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Sima An 司馬安',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Sima An 司馬安',
+      'phone': 'Ji Ren 汲仁',
+      'third': 'Cousins'
+    },
+    {
+      'name': 'Sima An 司馬安',
+      'phone': 'Ji Ren 汲仁',
+      'third': 'Second Cousins'
+    },
+    {
+      'name': 'Ji An 汲黯',
+      'phone': 'Sima An 司馬安',
+      'third': 'Cousins'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Li Xi 李息',
+      'third': 'Emperor-Grand Messenger'
+    },
+    {
+      'name': 'Emperor Jing  景帝',
+      'phone': 'Emperor Wu 武帝',
+      'third': 'Father-Son'
+    },
+    {
+      'name': 'Wang Xin 蓋侯[王]信',
+      'phone': 'Empress Dowager Wang 孝景王皇后',
+      'third': 'Brother-Sister'
+    },
+    {
+      'name': 'Tian Fen 田蚡',
+      'phone': 'Wang Xin 蓋侯[王]信',
+      'third': 'Half-Brothers'
+    },
+    {
+      'name': 'Wang Xin 蓋侯[王]信',
+      'phone': 'Emperor Jing  景帝',
+      'third': 'Brothers-in-law'
+    },
+    {
+      'name': 'Wang Xin 蓋侯[王]信',
+      'phone': 'Emperor Wu 武帝',
+      'third': 'Uncle-Nephew'
+    },
+    {
+      'name': 'Wang Xin 蓋侯[王]信',
+      'phone': 'Duan Hong 段宏',
+      'third': 'Superior-Suboordinate'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Liu An 劉安',
+      'third': 'Emperor-King'
+    },
+    {
+      'name': 'Liu An 劉安',
+      'phone': 'Ji An 汲黯',
+      'third': 'King-Bureaucrat'
+    },
+    {
+      'name': 'Liu An 劉安',
+      'phone': 'Gongsun Hong 公孫弘',
+      'third': 'King-General'
+    },
+    {
+      'name': 'Emperor Wen 漢文帝',
+      'phone': 'Li Guang 李廣',
+      'third': 'Emperor-General'
+    },
+    {
+      'name': 'Emperor Jing  景帝',
+      'phone': 'Li Guang 李廣',
+      'third': 'Emperor-General'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Li Guang 李廣',
+      'third': 'Emperor-General'
+    },
+    {
+      'name': 'Emperor Wen 漢文帝',
+      'phone': 'Emperor Jing  景帝',
+      'third': 'Father-Son'
+    },
+    {
+      'name': 'Emperor Wen 漢文帝',
+      'phone': 'Emperor Wu 武帝',
+      'third': 'Grandfather-Grandson'
+    },
+    {
+      'name': 'Emperor Jing  景帝',
+      'phone': 'Emperor Wu 武帝',
+      'third': 'Father-Son'
+    },
+    {
+      'name': 'Emperor Wen 漢文帝',
+      'phone': 'Li Cai 李蔡',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Li Cai 李蔡',
+      'phone': 'Li Guang 李廣',
+      'third': 'Cousins'
+    },
+    {
+      'name': 'Li Xin 李信',
+      'phone': 'Li Guang 李廣',
+      'third': 'Ancestor-descendant'
+    },
+    {
+      'name': 'Li Xin 李信',
+      'phone': 'Dan 丹',
+      'third': 'Enemies'
+    },
+    {
+      'name': 'Zhou Yafu 周亞夫',
+      'phone': 'Li Guang 李廣',
+      'third': 'Superior-Suboordinate'
+    },
+    {
+      'name': 'Emperor Jing  景帝',
+      'phone': 'Zhou Yafu 周亞夫',
+      'third': 'Emperor-Commandant'
+    },
+    {
+      'name': 'Emperor Wen 漢文帝',
+      'phone': 'Zhou Yafu 周亞夫',
+      'third': 'Emperor-General'
+    },
+    {
+      'name': 'King of Liang 梁王',
+      'phone': 'Li Guang 李廣',
+      'third': 'King-Commander'
+    },
+    {
+      'name': 'Gongsun Kunye 公孫昆邪',
+      'phone': 'Li Guang 李廣',
+      'third': 'Colleagues/Friends'
+    },
+    {
+      'name': 'Emperor Jing  景帝',
+      'phone': 'Gongsun Kunye 公孫昆邪',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Cheng Bushi 程不識',
+      'phone': 'Li Guang 李廣',
+      'third': 'Colleagues'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Cheng Bushi 程不識',
+      'third': 'Emperor-General'
+    },
+    {
+      'name': 'Emperor Jing  景帝',
+      'phone': 'Cheng Bushi 程不識',
+      'third': 'Emperor-General'
+    },
+    {
+      'name': 'Han Anguo 韓安國',
+      'phone': 'Li Guang 李廣',
+      'third': 'Superior-Suboordinate'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Han Anguo 韓安國',
+      'third': 'Emperor-General'
+    },
+    {
+      'name': 'Guan Qiang 灌強',
+      'phone': 'Li Guang 李廣',
+      'third': 'Neighbors'
+    },
+    {
+      'name': 'Guan Qiang 灌強',
+      'phone': 'Guan Ying 灌嬰',
+      'third': 'Grandfather-Grandson'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Guan Ying 灌嬰',
+      'third': 'Emperor-Marquis'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Shi Jian 石建',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Shi Jian 石建',
+      'phone': 'Li Guang 李廣',
+      'third': 'Predecessor-Successor'
+    },
+    {
+      'name': 'Zhang Qian 張騫',
+      'phone': 'Li Guang 李廣',
+      'third': 'Superior-Suboordinate'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Zhang Qian 張騫',
+      'third': 'Emperor-General'
+    },
+    {
+      'name': 'Wei Qing 衛青',
+      'phone': 'Li Guang 李廣',
+      'third': 'Superior-Suboordinate'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Wei Qing 衛青',
+      'third': 'Emperor-General'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Li Gan 李敢',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Li Guang 李廣',
+      'phone': 'Li Gan 李敢',
+      'third': 'Father-Son'
+    },
+    {
+      'name': 'Emperor Jing  景帝',
+      'phone': 'Li Cai 李蔡',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Li Cai 李蔡',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Li Cai 李蔡',
+      'phone': 'Wei Qing 衛青',
+      'third': 'General in Chief-General'
+    },
+    {
+      'name': 'Li Cai 李蔡',
+      'phone': 'Gongsun Hong 公孫弘',
+      'third': 'Predecessor-Successor'
+    },
+    {
+      'name': 'Wang Shuo 王朔',
+      'phone': 'Li Guang 李廣',
+      'third': 'Diviner-General'
+    },
+    {
+      'name': 'Huo Qubing 霍去病',
+      'phone': 'Wei Qing 衛青',
+      'third': 'Colleagues'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Huo Qubing 霍去病',
+      'third': 'Emperor-General'
+    },
+    {
+      'name': 'Huo Qubing 霍去病',
+      'phone': 'Li Guang 李廣',
+      'third': 'Colleagues'
+    },
+    {
+      'name': 'Zhao Yiji 趙食其',
+      'phone': 'Li Guang 李廣',
+      'third': 'Colleagues'
+    },
+    {
+      'name': 'Zhao Yiji 趙食其',
+      'phone': 'Huo Qubing 霍去病',
+      'third': 'Colleagues'
+    },
+    {
+      'name': 'Zhao Yiji 趙食其',
+      'phone': 'Wei Qing 衛青',
+      'third': 'Colleagues'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Zhao Yiji 趙食其',
+      'third': 'Emperor-General'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Gongsun Ao 公孫敖',
+      'third': 'Emperor-General'
+    },
+    {
+      'name': 'Wei Qing 衛青',
+      'phone': 'Gongsun Ao 公孫敖',
+      'third': 'Superior-Suboordinate'
+    },
+    {
+      'name': 'Gongsun Ao 公孫敖',
+      'phone': 'Li Guang 李廣',
+      'third': 'Colleagues'
+    },
+    {
+      'name': 'Gongsun Ao 公孫敖',
+      'phone': 'Huo Qubing 霍去病',
+      'third': 'Colleagues'
+    },
+    {
+      'name': 'Gongsun Ao 公孫敖',
+      'phone': 'Zhao Yiji 趙食其',
+      'third': 'Colleagues'
+    },
+    {
+      'name': 'Li Guang 李廣',
+      'phone': 'Li Danghu 李當戶',
+      'third': 'Father-Son'
+    },
+    {
+      'name': 'Li Guang 李廣',
+      'phone': 'Li Jiao 李椒',
+      'third': 'Father-Son'
+    },
+    {
+      'name': 'Li Danghu 李當戶',
+      'phone': 'Han Yan 韓嫣',
+      'third': 'Enemies'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Han Yan 韓嫣',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Li Danghu 李當戶',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Li Danghu 李當戶',
+      'phone': 'Li Ling 李陵',
+      'third': 'Father-Son'
+    },
+    {
+      'name': 'Li Guang 李廣',
+      'phone': 'Li Ling 李陵',
+      'third': 'Grandfather-Grandson'
+    },
+    {
+      'name': 'Li Jiao 李椒',
+      'phone': 'Li Ling 李陵',
+      'third': 'Uncle-Nephew'
+    },
+    {
+      'name': 'Li Gan 李敢',
+      'phone': 'Li Ling 李陵',
+      'third': 'Uncle-Nephew'
+    },
+    {
+      'name': 'Li Gan 李敢',
+      'phone': 'Li Cai 李蔡',
+      'third': 'Second Cousins'
+    },
+    {
+      'name': 'Li Jiao 李椒',
+      'phone': 'Li Cai 李蔡',
+      'third': 'Second Cousins'
+    },
+    {
+      'name': 'Li Danghu 李當戶',
+      'phone': 'Li Cai 李蔡',
+      'third': 'Second Cousins'
+    },
+    {
+      'name': 'Li Ling 李陵',
+      'phone': 'Li Cai 李蔡',
+      'third': 'Third Cousins'
+    },
+    {
+      'name': 'Li Gan 李敢',
+      'phone': 'Huo Qubing 霍去病',
+      'third': 'Enemies'
+    },
+    {
+      'name': 'Li Gan 李敢',
+      'phone': 'Wei Qing 衛青',
+      'third': 'Enemies'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Li Gan 李敢',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Li Gan 李敢',
+      'phone': 'Li Yu 李禹',
+      'third': 'Father-Son'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Li Yu 李禹',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Li Cai 李蔡',
+      'phone': 'Li Yu 李禹',
+      'third': 'Third Cousins'
+    },
+    {
+      'name': 'Li Danghu 李當戶',
+      'phone': 'Li Yu 李禹',
+      'third': 'Uncle-Nephew'
+    },
+    {
+      'name': 'Li Jiao 李椒',
+      'phone': 'Li Yu 李禹',
+      'third': 'Uncle-Nephew'
+    },
+    {
+      'name': 'Li Guang 李廣',
+      'phone': 'Li Yu 李禹',
+      'third': 'Grandfather-Grandson'
+    },
+    {
+      'name': 'Li Ling 李陵',
+      'phone': 'Li Yu 李禹',
+      'third': 'Cousins'
+    },
+    {
+      'name': 'Li Guangli 李廣利',
+      'phone': 'Li Ling 李陵',
+      'third': 'Superior-Suboordinate'
+    },
+    {
+      'name': 'Gongsun He 公孫賀',
+      'phone': 'Li Guang 李廣',
+      'third': 'Colleagues'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Gongsun He 公孫賀',
+      'third': 'Emperor-General'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Wang Hui 王恢',
+      'third': 'Emperor-General'
+    },
+    {
+      'name': 'Wang Hui 王恢',
+      'phone': 'Li Guang 李廣',
+      'third': 'Colleagues'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Li Xi 李息',
+      'third': 'Emperor-General'
+    },
+    {
+      'name': 'Li Xi 李息',
+      'phone': 'Li Guang 李廣',
+      'third': 'Colleagues'
+    },
+    {
+      'name': 'Li Hao 李暠',
+      'phone': 'Li Guang 李廣',
+      'third': 'Distant Relatives'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Gongsun Hong 公孫弘',
+      'third': 'Emperor-Bureaucrat'
+    },
+    {
+      'name': 'Emperor Wu 武帝',
+      'phone': 'Li Guangli 李廣利',
+      'third': 'Emperor-General'
+    }
   ]"></div>
 
 <style>
