@@ -4,7 +4,6 @@ body {
   background-repeat: no-repeat;
   background-size: auto;
   background-position: center;
-  background-color: white;
   font-family: 'Raleway', sans-serif;
   text-align: center;
   /* align-content: center; */
@@ -12,7 +11,7 @@ body {
 }
 
 /*search styling*/
-input[type=text] {
+/* input[type=text] {
   font-family: 'Raleway', sans-serif;  opacity : 1;
   display: block;
   margin : auto auto;
@@ -20,14 +19,13 @@ input[type=text] {
   margin-top: 100px;
   width: 400px;
   box-sizing: border-box;
-  border: 2px solid white;
+  border: 2px #0C2340;
   border-radius: 4px;
   font-size: 16px;
-  background-color: white;
   background-position: 10px 10px;
   background-repeat: no-repeat;
   padding: 10px 10px 12px 20px;
-}
+} */
 
 styling for the image
 img {

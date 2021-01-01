@@ -53,6 +53,10 @@ function RightCtrl($timeout, $mdSidenav) {
     };
   }
 
+//controller for search
+
+
+
 // Add controller to appropriate module
 angular
   .module('phenoTable')
@@ -61,3 +65,7 @@ angular
 angular
   .module('phenoTable')
   .controller('RightCtrl', RightCtrl);
+
+// angular //to enable search
+//   .module('phenoTable')
+//   .controller('namesCtrl', namesCtrl);

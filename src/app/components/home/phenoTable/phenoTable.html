@@ -1,24 +1,28 @@
 <md-sidenav class="md-sidenav-right md-whiteframe-6dp" style="position: fixed; width: 100%" md-component-id="right">
 
-    <md-toolbar class="md-theme-dark">
-      <h1 class="md-toolbar-tools">Imperial Official Information:</h1>
-    </md-toolbar>
-    <md-content ng-controller="RightCtrl" layout-padding="">
-      <img style="max-width: 200px;" src={{$ctrl.image}}> <!--Image source replaced by link from database-->
-      <p>Name: {{$ctrl.sideBarContent.name}} </p>
-      <p>Position: {{$ctrl.sideBarContent.position}}</p> <!--change this later to match-->
-      <!-- <p>Highest Position: {{$ctrl.sideBarContent.highest_pos}}</p> -->
-      <!-- <p>Original Region 1 -Commandery 籍貫（郡）: {{$ctrl.sideBarContent.region1}}</p> -->
-      <!-- <p>Original Region 2- County - 籍貫 (縣): {{$ctrl.sideBarContent.region2}}</p> -->
-      <!-- <p>Highest Position: {{$ctrl.sideBarContent.region3}}</p> -->
-      <p><a ui-sref="relationships">Relationships</a></p>
-      <p><a ui-sref="relationships">Criminal History</a></p>
-      <p><a ui-sref="relationships">Career Patterns</a></p>
-      <p><a ui-sref="relationships">Geographical Mobility</a></p>
-      <br>
-    </md-content>
+  <md-toolbar class="md-theme-dark">
+    <h1 class="md-toolbar-tools">Imperial Official Information:</h1>
+  </md-toolbar>
+  <md-content ng-controller="RightCtrl" layout-padding="">
+    <img style="max-width: 200px;" src={{$ctrl.image}}> <!--Image source replaced by link from database-->
+    <p>Name: {{$ctrl.sideBarContent.name}} </p>
+    <p>Position: {{$ctrl.sideBarContent.position}}</p> <!--change this later to match-->
+    <!-- <p>Highest Position: {{$ctrl.sideBarContent.highest_pos}}</p> -->
+    <!-- <p>Original Region 1 -Commandery 籍貫（郡）: {{$ctrl.sideBarContent.region1}}</p> -->
+    <!-- <p>Original Region 2- County - 籍貫 (縣): {{$ctrl.sideBarContent.region2}}</p> -->
+    <!-- <p>Highest Position: {{$ctrl.sideBarContent.region3}}</p> -->
+    <p><a ui-sref="relationships">Relationships</a></p>
+    <p><a ui-sref="relationships">Criminal History</a></p>
+    <p><a ui-sref="relationships">Career Patterns</a></p>
+    <p><a ui-sref="relationships">Geographical Mobility</a></p>
+    <br>
+  </md-content>
 
-  </md-sidenav>
+</md-sidenav>
+
+<p><input type="text" ng-model="test"></p>
+
+
 <table>
     <td><h4>Name (中文)</h4></td>
     <td><h4>Name (Pinyin)</h4></td>
@@ -33,5 +37,5 @@
 </table>
 <table>
     <!-- Create as many entries as items in the array of data -->
-    <pheno-entry ng-repeat="pheno in $ctrl.types" pheno="pheno" toggle-side="$ctrl.toggleRight(pheno)"></pheno-entry>
+    <pheno-entry ng-repeat="pheno in $ctrl.types | filter : test" pheno="pheno" toggle-side="$ctrl.toggleRight(pheno)"></pheno-entry>
 </table>
