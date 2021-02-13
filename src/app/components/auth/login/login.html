@@ -1,18 +1,20 @@
 <h2>
-  Welcome to the ImperialMatrix database 
+  Welcome to the ImperialMatrix database
   <br> <br>
-  Please log in or sign up to continue
 </h2>
 
-<style>
-  .center {
-    padding: 80px;
-  }
-</style>
+<!-- <a ui-sref="home">Continue to the Database</a> -->
 
 <div class="center">
 
   <div class="auth">
+
+
+    <a ui-sref="phenoTable">
+
+      <input type="button" class="button" value="Go Straight to Database">
+
+    </a>
 
     <auth-form
       user="$ctrl.user"
@@ -51,6 +53,7 @@
       cursor: pointer;
     }
     </style>
+
 
     <a ui-sref="register">
 
