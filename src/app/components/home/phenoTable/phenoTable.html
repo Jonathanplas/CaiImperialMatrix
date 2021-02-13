@@ -5,13 +5,13 @@
   </md-toolbar>
   <md-content ng-controller="RightCtrl" layout-padding="">
     <img style="max-width: 200px;" src={{$ctrl.image}}> <!--Image source replaced by link from database-->
-    <p>Name: {{$ctrl.sideBarContent.name}} </p>
-    <p>Position: {{$ctrl.sideBarContent.position}}</p> <!--change this later to match-->
+    <p>Name: {{$ctrl.sideBarContent.nameChinese}} </p>
+    <p>Pinyin: {{$ctrl.sideBarContent.namePinyin}}</p> <!--change this later to match-->
     <!-- <p>Highest Position: {{$ctrl.sideBarContent.highest_pos}}</p> -->
     <!-- <p>Original Region 1 -Commandery 籍貫（郡）: {{$ctrl.sideBarContent.region1}}</p> -->
     <!-- <p>Original Region 2- County - 籍貫 (縣): {{$ctrl.sideBarContent.region2}}</p> -->
     <!-- <p>Highest Position: {{$ctrl.sideBarContent.region3}}</p> -->
-    <p><a ui-sref="relationships">Relationships</a></p>
+    <p>Source: {{$ctrl.sideBarContent.source}}</p>
     <p><a ui-sref="relationships">Criminal History</a></p>
     <p><a ui-sref="relationships">Career Patterns</a></p>
     <p><a ui-sref="relationships">Geographical Mobility</a></p>
