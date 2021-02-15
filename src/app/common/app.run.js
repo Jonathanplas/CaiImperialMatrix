@@ -1,7 +1,7 @@
 function init($rootScope, $uiRouter){
   // UI router instantiation
-  var Visualizer = window['ui-router-visualizer'].Visualizer;
-  var pluginInstance = $uiRouter.plugin(Visualizer);
+  // var Visualizer = window['ui-router-visualizer'].Visualizer;
+  // var pluginInstance = $uiRouter.plugin(Visualizer);
 
   $rootScope.isEmpty = isEmpty;
 
